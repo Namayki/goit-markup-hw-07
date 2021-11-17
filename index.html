@@ -15,7 +15,7 @@
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <!-- body -->
@@ -513,16 +513,14 @@
             </button>
 
             <form action="#" class="modal-form">
-
                 <p class="modal-form-head">
                     Оставьте свои данные, мы вам перезвоним
                 </p>
-                <label for="" class="modal-form-field">
+                <label class="modal-form-field">
                     Имя
                     <span class="modal-form-wrapper">
-                        <input type="text" class="modal-form-input" name="user-name" minlength="2"
-                            pattern="[a-zA-Zа-яёА-ЯЁ]+" title="Имя должно содержать символы кириллицы и латиницы"
-                            required />
+                        <input type="text" class="modal-form-input" name="user-name" minlength="2" pattern="[a-zA-Zа-яёА-ЯЁ]+"
+                            title="Имя должно содержать символы кириллицы и латиницы" required />
                         <span class="modal-form-icon">
                             <svg class="modal-icon" width="18" height="18">
                                 <use href="./images/icons.svg#icon-person"></use>
@@ -530,8 +528,8 @@
                         </span>
                     </span>
                 </label>
-
-                <label for="" class="modal-form-field">
+                
+                <label class="modal-form-field">
                     Телефон
                     <span class="modal-form-wrapper">
                         <input type="tel" class="modal-form-input" name="user-tel" title="099-000-00-00"
@@ -543,12 +541,12 @@
                         </span>
                     </span>
                 </label>
-
-
-                <label for="" class="modal-form-field">
+                
+                
+                <label class="modal-form-field">
                     Почта
                     <span class="modal-form-wrapper">
-                        <input type="e-mail" class="modal-form-input" name="user-mail" />
+                        <input class="modal-form-input" name="user-mail" />
                         <span class="modal-form-icon">
                             <svg class="modal-icon" width="18" height="18">
                                 <use href="./images/icons.svg#icon-email"></use>
@@ -556,31 +554,31 @@
                         </span>
                     </span>
                 </label>
-
+                
                 <label class="modal-form-field">
                     Комментарий
                     <textarea class="modal-form-message" id="feedback" placeholder="Введите текст"></textarea>
                 </label>
                 <input type="checkbox" id="accept-policy" class="modal-form-checkbox visually-hidden">
-
+                
                 <label for="accept-policy" class="modal-form-checkbox-label">
                     Соглашаюсь с рассылкой и принимаю&nbsp;
                     <a href="#" class="modal-accept-policy">
                         Условия договора
                     </a>
                 </label>
-
+                
                 <button class="modal-form-button" type="submit">
                     Отправить
                 </button>
-
-            </form>
-
-        </div>
-    </div>
-
-</body>
-
-<script src="./js/modal.js"></script>
-
-</html>
+                
+                </form>
+                
+                </div>
+                </div>
+                
+                </body>
+                
+                <!-- <script src="./js/modal.js"></script> -->
+                
+                </html>
