@@ -9,10 +9,10 @@
 
 .typography-item {
     width: 370px;
-}
 
-&:not(:last-child){
+    &:not(:last-child) {
     margin-right: 30px;
+    }
 }
 
 

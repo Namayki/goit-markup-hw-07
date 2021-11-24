@@ -14,11 +14,11 @@
 
 .feature-item {
     width: 270px;
-}
 
-&:not(:last-child){
+    &:not(:last-child) {
     margin-right: 30px;
     }
+}    
 
 .feature-text {
     font-size: 14px;

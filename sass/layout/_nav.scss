@@ -18,30 +18,28 @@
     color: var(--header-color);
     transition: color var(--transition);
     position: relative;
-}
 
-.menu-link.current::after {
+    &.current::after {
     content: "";
     width: 100%;
     height: 4px;
-    bottom: -33px;
+    bottom: -35px;
     left: 0;
     border-radius: 2px;
     display: block;
     background-color: var(--accent-color);
     position: absolute;
-}
-
-.menu-item {
-    &:not(:last-child){
-    margin-right: 50px;
     }
-}
 
-.menu-link {
     &:hover,
     &:focus {
     color: var(--accent-color);
+    }
+}
+
+.menu-item {
+    &:not(:last-child) {
+    margin-right: 50px;
     }
 }
 
@@ -50,10 +48,10 @@
     &:focus {
     color: var(--accent-color);
     }
-}
 
-&:not(:last-child) {
+    &:not(:last-child) {
     margin-right: 50px;
+    }
 }
 
 .envelope-icon,
@@ -68,9 +66,9 @@
     font-weight: 500;
     color: var(--second-header-color);
     transition: color var(--transition);
-}
 
-&:hover, 
-&:focus {
+    &:hover, 
+    &:focus {
     color: var(--accent-color);
+    }
 }

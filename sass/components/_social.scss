@@ -11,10 +11,10 @@
     width: 44px;
     height: 44px;
     margin-right: 10px;
-}
 
-&:last-child {
+    &:last-child {
     margin-right: 0;
+    }
 }
 
 .social-icon {
@@ -31,29 +31,18 @@
     align-items: center;
     justify-content: center;
     transition: background-color var(--transition);
-}
 
-&:hover,
-&:focus {
+
+    &:hover,
+    &:focus {
     background-color: var(--accent-color);
-}
+    }
 
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
+    &:hover .social-icon,
+    &:focus .social-icon {
     fill: var(--title-color);
+    }
 }
-
-// &:hover,
-// &:focus {
-//     fill: var(--title-color);
-// }
-
-// .social-icon{
-//     &:hover,
-//     &:focus {
-//         fill: var(--title-color)
-//     }
-// }
 
 .social-link-dark {
     background-color: var(--social-link-dark-color);

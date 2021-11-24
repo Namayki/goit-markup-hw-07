@@ -15,10 +15,10 @@
 .team-item {
     background-color: var(--title-color);
     box-shadow: var(--team-box-shadow-color);
-}
 
-&:not(:last-child) {
+    &:not(:last-child) {
     margin-right: 30px;
+    }
 }
 
 .team-container {
