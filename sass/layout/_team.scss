@@ -4,11 +4,6 @@
     background-color:var(--background-team-color);
 }
 
-.team-container {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
 .team-list {
     font-size: 16px;
     line-height: 1.19x;
@@ -22,8 +17,18 @@
     box-shadow: var(--team-box-shadow-color);
 }
 
+&:not(:last-child) {
+    margin-right: 30px;
+}
+
+.team-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .team-item-text {
     font-weight: normal;
     color: var(--second-header-color);
     margin-bottom: 16px;
 }
+

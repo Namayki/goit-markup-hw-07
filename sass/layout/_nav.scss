@@ -32,14 +32,28 @@
     position: absolute;
 }
 
-.menu-item:not(:last-child),
-.header-contacts-item:not(:last-child) {
+.menu-item {
+    &:not(:last-child){
     margin-right: 50px;
+    }
 }
 
-.menu-link:hover, 
-.menu-link:focus {
+.menu-link {
+    &:hover,
+    &:focus {
     color: var(--accent-color);
+    }
+}
+
+.header-contacts-item {
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+    }
+}
+
+&:not(:last-child) {
+    margin-right: 50px;
 }
 
 .envelope-icon,
@@ -56,7 +70,7 @@
     transition: color var(--transition);
 }
 
-.header-contacts-link:hover, 
-.header-contacts-link:focus {
+&:hover, 
+&:focus {
     color: var(--accent-color);
 }

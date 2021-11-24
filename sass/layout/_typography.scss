@@ -11,8 +11,13 @@
     width: 370px;
 }
 
+&:not(:last-child){
+    margin-right: 30px;
+}
+
+
 .typography-item-thumb {
-    display: flex;
+    display: wrap;
     position: relative;
     background-color: var(--linear-gradient-color);
 }

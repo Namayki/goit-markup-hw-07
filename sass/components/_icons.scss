@@ -9,22 +9,25 @@
     margin-bottom: 30px;
 }
 
+.feature-icon
+
 .social-icon {
     fill: var(--icon-color);
     transition: fill var(--transition);
+}
+
+.social-icon-white {
+    fill: var(--title-color);
 }
 
 .clients-icon {
     fill: currentColor;
 }
 
-.footer-social-icon-white {
-    fill: var(--title-color);
-}
-
 .footer-icon-send {
     margin-left: 10px;
 }
+
 .modal-close-icon {
     fill: currentColor;
 }
