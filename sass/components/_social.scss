@@ -17,6 +17,11 @@
     margin-right: 0;
 }
 
+.social-icon {
+    fill: var(--icon-color);
+    transition: fill var(--transition);
+}
+
 .social-link {
     width: 100%;
     height: 100%;
@@ -33,10 +38,22 @@
     background-color: var(--accent-color);
 }
 
-&:hover,
-&:focus {
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
     fill: var(--title-color);
 }
+
+// &:hover,
+// &:focus {
+//     fill: var(--title-color);
+// }
+
+// .social-icon{
+//     &:hover,
+//     &:focus {
+//         fill: var(--title-color)
+//     }
+// }
 
 .social-link-dark {
     background-color: var(--social-link-dark-color);
