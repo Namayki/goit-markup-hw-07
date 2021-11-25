@@ -93,7 +93,6 @@
     color: var(--modal-form-message-color);
     }
 
-
     &:focus {
     outline: none;
     border-color: var(--accent-color);
@@ -132,11 +131,9 @@
 .modal-form-checkbox-label::before {
     border-color: var(--accent-color);
     background-color: var(--accent-color);
-    background-image: url(../images/icon-check.svg);
+    background-image: url(../images/sprite-min.svg/icon-check.svg);
     background-size: cover;
     background-position: center;
-    /* background-size: contain; */
-    /* background-origin: border-box; */
     background-repeat: no-repeat;
     
     &:focus + 
